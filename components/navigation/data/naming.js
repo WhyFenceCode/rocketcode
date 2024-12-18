@@ -3,5 +3,6 @@ export const app_query_names = {
 }
 
 export const app_query_slogans = {
-    landingSubText: "Jumpstart Your Future",
+    landingMainText: "Unlock your development potential with",
+    landingSubText: "Learning focused on building confidence while following best practices",
 }

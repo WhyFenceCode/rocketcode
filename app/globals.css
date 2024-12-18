@@ -15,6 +15,7 @@ body {
 @layer base {
   :root {
     --background: 0 0% 98.46%;
+    --muted-background: 0 0% 74.48%;
     --foreground: 252 0% 10%;
     --muted: 0 0% 91.54%;
     --muted-foreground: 0 0% 53.08%;
@@ -51,6 +52,7 @@ body {
 
   .dark {
     --background: 0 0% 6.27%;
+    --muted-background: 0 0% 23.25%;
     --foreground: 252 37% 98%;
     --muted: 0 0% 20%;
     --muted-foreground: 0 0% 62.75%;
