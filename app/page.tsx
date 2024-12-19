@@ -13,7 +13,8 @@ import { ChevronsRight } from 'lucide-react';
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="absolute inset-0 -z-10 h-full w-full bg-background bg-[radial-gradient(hsl(var(--muted-background))_1px,transparent_1px)] [background-size:32px_32px]"></div>
+      <div className="absolute bottom-0 left-0 -z-10 h-full w-full bg-background bg-[radial-gradient(ellipse_farthest-corner_at_50%_115%,hsl(var(--primary))_0%,hsl(var(--background))_50%,hsl(var(--background))_100%)] bg-cover	"></div>
+      {/* <div className="absolute inset-0 -z-10 h-full w-full bg-[radial-gradient(hsl(var(--muted-background))_1px,transparent_1px)] [background-size:32px_32px]"></div> */}
       <header className="p-6">
         <div className="w-12 h-12 flex items-center justify-center">
           {/* Logo placeholder */}
