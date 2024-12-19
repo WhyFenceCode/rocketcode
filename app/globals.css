@@ -26,6 +26,7 @@ body {
     --border: 0 0% 86.92%;
     --input: 0 0% 74.62%;
     --primary: 197.06 100% 80%;
+    --primary-glow: 197.06 100% 80% / 1;
     --primary-foreground: 0 0% 0%;
     --secondary: 27.06 100% 80%;
     --secondary-foreground: 0 0% 0%;
@@ -63,6 +64,7 @@ body {
     --border: 0 0% 15.69%;
     --input: 0 0% 25.38%;
     --primary: 196.8 100% 80%;
+    --primary-glow: 196.8 100% 80% / .35;
     --primary-foreground: 0 0% 0%;
     --secondary: 27.06 100% 80%;
     --secondary-foreground: 0 0% 0%;

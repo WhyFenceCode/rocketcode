@@ -22,6 +22,7 @@ const config: Config = {
   			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
+				glow: 'hsla(var(--primary-glow))',
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
