@@ -1,4 +1,5 @@
 import { AppSidebar } from "@/components/navigation/components/app-sidebar"
+import { ThemeIcon } from "@/components/navigation/components/theme-switch"
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -35,6 +36,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                   </BreadcrumbItem>
                 </BreadcrumbList>
               </Breadcrumb>
+              <div className="grow" />
+              <ThemeIcon />
             </header>
             {children}
           </SidebarInset>
