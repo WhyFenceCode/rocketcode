@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
 
-import { LogoIcon } from "@/components/icons/logo"
+import { LogoBlock } from "@/components/icons/logo"
 import { ThemeIcon } from "@/components/navigation/components/theme-switch"
 
 import {
@@ -19,7 +19,7 @@ export default function Home() {
       <header className="p-6">
         <div className="w-12 h-12 flex items-center justify-center">
           {/* Logo placeholder */}
-          <LogoIcon />
+          <LogoBlock />
         </div>
       </header>
 
