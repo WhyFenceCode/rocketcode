@@ -1,3 +1,5 @@
+"use client"
+
 import * as React from "react"
 import { GalleryVerticalEnd, Minus, Plus } from "lucide-react"
 
@@ -30,7 +32,10 @@ import {
 
 import { LogoIcon } from "@/components/icons/logo"
 
+import { usePathname } from 'next/navigation'
+
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const pathname = usePathname()
   return (
     <Sidebar {...props}>
       <SidebarHeader>
@@ -56,7 +61,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
             {app_url_structures.navMain.map((item, index) => (
               <Collapsible
                 key={item.title}
-                defaultOpen={index === 1}
+                defaultOpen={index === 0}
                 className="group/collapsible"
               >
                 <SidebarMenuItem>
@@ -74,7 +79,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                           <SidebarMenuSubItem key={item.title}>
                             <SidebarMenuSubButton
                               asChild
-                              isActive={item.isActive}
+                              isActive={pathname == item.url}
                             >
                               <a href={item.url}>{item.title}</a>
                             </SidebarMenuSubButton>

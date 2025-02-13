@@ -11,7 +11,8 @@ export const app_url_structures = {
         items: [
           {
             title: "Welcome",
-            url: "#",
+            url: "/app",
+            isActive: true,
           },
           {
             title: "Installing an IDE",
@@ -30,7 +31,6 @@ export const app_url_structures = {
           {
             title: "Data Fetching",
             url: "#",
-            isActive: true,
           },
           {
             title: "Rendering",
