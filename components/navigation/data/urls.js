@@ -1,6 +1,6 @@
 export const app_query_urls = {
     home: "/",
-    app: "/dashboard",
+    app: "/app",
 }
 
 export const app_url_structures = {
