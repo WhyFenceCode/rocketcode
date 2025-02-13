@@ -12,7 +12,6 @@ export const app_url_structures = {
           {
             title: "Welcome",
             url: "/app",
-            isActive: true,
           },
           {
             title: "Installing an IDE",
