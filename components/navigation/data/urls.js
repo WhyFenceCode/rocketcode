@@ -15,7 +15,7 @@ export const app_url_structures = {
           },
           {
             title: "Installing an IDE",
-            url: "#",
+            url: "/app/ide",
           },
         ],
       },
