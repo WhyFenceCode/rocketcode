@@ -1,4 +1,5 @@
 import { AppSidebar } from "@/components/navigation/components/app-sidebar"
+import { HeaderBreadcrumb } from "@/components/navigation/components/app-header-breadcrumb"
 import { ThemeIcon } from "@/components/navigation/components/theme-switch"
 import {
   Breadcrumb,
@@ -23,19 +24,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <header className="flex h-16 shrink-0 items-center gap-2 border-b px-4">
               <SidebarTrigger className="-ml-1" />
               <Separator orientation="vertical" className="mr-2 h-4" />
-              <Breadcrumb>
-                <BreadcrumbList>
-                  <BreadcrumbItem className="hidden md:block">
-                    <BreadcrumbLink href="#">
-                      RocketCode
-                    </BreadcrumbLink>
-                  </BreadcrumbItem>
-                  <BreadcrumbSeparator className="hidden md:block" />
-                  <BreadcrumbItem>
-                    <BreadcrumbPage>App</BreadcrumbPage>
-                  </BreadcrumbItem>
-                </BreadcrumbList>
-              </Breadcrumb>
+              <HeaderBreadcrumb />
               <div className="grow" />
               <ThemeIcon />
             </header>
