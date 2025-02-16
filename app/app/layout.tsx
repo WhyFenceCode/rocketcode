@@ -1,14 +1,6 @@
 import { AppSidebar } from "@/components/navigation/components/app-sidebar"
 import { HeaderBreadcrumb } from "@/components/navigation/components/app-header-breadcrumb"
 import { ThemeIcon } from "@/components/navigation/components/theme-switch"
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
 import { Separator } from "@/components/ui/separator"
 import {
   SidebarInset,
