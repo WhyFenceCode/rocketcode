@@ -67,7 +67,7 @@ body {
     --primary-glow: 196.8 100% 80% / .35;
     --primary-foreground: 0 0% 0%;
     --secondary: 27.06 100% 80%;
-    --secondary-foreground: 0 0% 0%;
+    --secondary-foreground: 27.06 100% 50%;
     --accent: 27.06 0.22% 23.03%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 100% 75.1%;
