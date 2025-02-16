@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import { Overpass_Mono, Poppins } from 'next/font/google'
 import { ThemeProvider } from "@/components/theme-provider"

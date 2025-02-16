@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/breadcrumb"
 
 export function HeaderBreadcrumb() {
-    let pathnameItems = usePathname().slice(1).split("/")
+    const pathnameItems = usePathname().slice(1).split("/")
 
     return (
         <Breadcrumb>
