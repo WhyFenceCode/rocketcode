@@ -1,7 +1,7 @@
-import { BetaAlert } from "@/components/navigation/components/beta-alert"
+import { BetaAlert } from "@/components/navigation/components/liability-alert"
 import { StepIndicator } from "@/components/navigation/components/step-indicator"
 import { IdeLink } from "@/components/navigation/components/ide-links"
-import { Button } from "@/components/ui/button"
+import { RecomendedArticle } from "@/components/navigation/components/recomended-article"
 
 import Link from 'next/link'
 
@@ -34,10 +34,7 @@ export default function Page() {
             <StepIndicator>6</StepIndicator>
             <p className="font-light">Once the install finishes you should be greated by a success screen with a check box to launch VS Code. Make sure this box is enabled as we need to finish the setup in VS Code. Then, press the "Finish" button.</p>
             <p className="font-light mt-8">While it may take a few seconds, VS Code should now boot up. Once it has opened you can select a theme, and then we have succesfully installed our IDE.</p>
-            <p className="font-light mt-8">Well Done! From here I would suggest you read our article on familiarising yourself with file and data management.</p>
-            <Button asChild className="my-8">
-                <Link href="#">Next Article</Link>
-            </Button>
+            <RecomendedArticle href="#">Now that we have Visual Studios Code our next step will be to learn about files and how VS Code works</RecomendedArticle>
         </div>
     )
 }

@@ -17,3 +17,15 @@ export function BetaAlert() {
     </Alert>
   )
 }
+
+export function ProductionAlert() {
+  return (
+    <Alert className="mb-8">
+      <Terminal className="h-4 w-4" />
+      <AlertTitle>Warning</AlertTitle>
+      <AlertDescription>
+        Sometimes we make mistakes so some statements may be incorrect and things may change in the future.
+      </AlertDescription>
+    </Alert>
+  )
+}
