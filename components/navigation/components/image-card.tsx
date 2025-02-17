@@ -11,7 +11,7 @@ export function ImageCard(
 ) {
   return (
     <div className="w-full flex justify-center">
-        <Card className="w-3/4 aspect-video my-12 overflow-hidden">
+        <Card className="sm:w-3/4 w-full aspect-video my-12 overflow-hidden">
             <Image
                 src={href}
                 width={1600}
