@@ -8,7 +8,7 @@ import Link from 'next/link'
 
 export default function Page() {
     return (
-        <div className="my-8 mx-16">
+        <div className="my-8 sm:px-16 px-4">
             <h1 className="text-5xl sm:text-6xl font-bold mb-8 text-foreground leading-loose">Installing an IDE</h1>
             <BetaAlert />
             <p className="font-light">This guide shows you how to choose and install an IDE. In programing an IDE is the text editor we use for our code. IDE's are a powerfull tool and the first step to starting our programing journey is getting one.</p>

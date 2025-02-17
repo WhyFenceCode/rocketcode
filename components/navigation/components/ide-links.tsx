@@ -14,7 +14,7 @@ export function IdeLink() {
                     </Card>
                 </Link>
             </div>
-            <div className="sm:w-[32%] w-full">
+            <div className="sm:w-[32%] w-full mb-6 sm:mb-0">
                 <Link href="https://www.sublimetext.com/" rel="noopener noreferrer" target="_blank">
                     <Card className="w-full aspect-[5/3] flex items-center justify-center">
                         <h1 className="text-5xl sm:text-6xl text-foreground leading-loose">Sublime</h1>
